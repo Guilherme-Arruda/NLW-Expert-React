@@ -1,30 +1,69 @@
-# React + TypeScript + Vite
+# NLW Expert React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A note management project developed during Rocketseat's NLW-Expert. <br>
+You can save notes by typing or speaking.
 
-Currently, two official plugins are available:
+## Web Version
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p width='100%' align='center'>
+  <img src="./public/screenshots/web_version.png" width='49%' alt="Web Version"/>
+  <img src="./public/screenshots/web_version_save_note.png" width='49%' alt="Web Version Save Note"/>
+</p>
+<p width='100%' align='center'>
+  <img src="./public/screenshots/web_version_notes.png" width='49%' alt="Web Version Notes"/>
+  <img src="./public/screenshots/web_version_delete_note.png" width='49%' alt="Web Version Delete Note"/>
+</p>
 
-## Expanding the ESLint configuration
+## Mobile Version
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<p width='100%' align='center'>
+  <img src="./public/screenshots/mobile_version.png" width='24%' alt="Mobile Version Dark"/>
+  <img src="./public/screenshots/mobile_version_save_note.png" width='24%' alt="Mobile Version Light"/>
+  <img src="./public/screenshots/mobile_version_notes.png" width='24%' alt="Mobile Version Details Page Dark"/>
+  <img src="./public/screenshots/mobile_version_delete_note.png" width='24%' alt="Mobile Version Details Page Light"/>
+</p>
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+* Vite
+* Tailwind CSS
+* TypeScript
+* ESLint
+* Prettier
+* Speech Recognition
+
+## 🤖 Demo
+
+You can view the project demo at [https://nlw-expert-react-guilherme-arruda.vercel.app](https://nlw-expert-react-guilherme-arruda.vercel.app).
+
+## 🚀 Getting Started
+
+To run the project in your machine you can clone this repository locally in a directory of your choice using:
+
+```
+git clone https://github.com/Guilherme-Arruda/NLW-Expert-React.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+After cloning you need to install all dependencies using:
+
+```bash
+npm install
+# or
+yarn
+```
+
+Then you can finally run the project using:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+## 📄 License
+
+This project is under MIT license - see the file [LICENSE.md](https://github.com/Guilherme-Arruda/NLW-Expert-React/blob/master/LICENSE) for details.
+
+---
+
+##### Coded with love by Guilherme Arruda ♥️
